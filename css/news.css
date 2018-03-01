@@ -1,0 +1,181 @@
+/* 
+* @Author: Fly
+* @Date:   2016-08-10 13:14:43
+* @Last Modified by:   Fly
+* @Last Modified time: 2016-08-30 19:48:05
+*/
+.banner-wrapper{
+	display: none;
+}
+.content{
+	margin-top: 62px;
+}
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+}
+.nav .news-fenlei{
+	display: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fb6e50;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-bottom-color: #fb6e50;
+}
+.tab-content .img02{
+	display: none;
+}
+.tab-pane{
+	padding-top: 5px;
+	min-height: 576px;
+}
+.list-group-item .title{
+	margin:0;
+	color: #000;
+}
+.list-group-item .time{
+	color: #959595;
+}
+.pages{
+	text-align: center;
+}
+
+.breadcrumb{
+	display: none;
+}
+.news-text .title{
+	text-align: left;
+	margin: 15px 0;
+}
+.news-text .time{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #999;
+}
+.news-text img{
+	width: 100%;
+}
+.news-text .main{
+	font-size: 16px;
+	line-height: 30px;
+}
+.back{
+	display: block;
+	width: 80px;
+	padding: 8px 0;
+	margin: 0 auto;
+	color: #cc0000;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+@media all and (min-width:992px){
+	.banner-wrapper{
+		display: block;
+	}
+	.content{
+		margin-top: 22px;
+	}
+	.news-pc .news-fenlei{
+	    margin-right: 2px;
+	    font-size: 20px;
+	    line-height: 1.4285;
+	    border: 1px solid transparent;
+	    border-radius: 4px 4px 0 0;
+	    position: relative;
+	    padding: 10px 15px 10px 0;
+	    display: block;
+	}
+	.news-pc .nav-tabs{
+		width: 280px;
+		float: right;
+		padding-left: 78px;
+	}
+	.news-pc .tab-content{
+		width: 100%;
+		margin-right: -280px;
+		padding-right: 280px;
+		float: left;
+	}
+	.tab-pane{
+		min-height: 450px;
+	}
+	.news-pc .nav-tabs > li {
+	    float: none;	    
+	}
+	.news-pc .nav-tabs > li > a{
+		font-size: 16px;
+	}
+	.news-pc .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	    border-bottom-color: transparent;
+	}
+	.news-pc .nav-tabs > li.gongsi > a {
+		padding-left: 40px;
+	    background-image: url(../images/news-gongsi.png);
+	    background-repeat: no-repeat;
+	    background-position: 5px center;
+	}
+	.news-pc .nav-tabs > li.hangye > a {
+		padding-left: 40px;
+	    background-image: url(../images/news-hangye.png);
+	    background-repeat: no-repeat;
+	    background-position: 5px center;
+	}
+	.news-pc .list-group-item{
+		padding: 15px 15px;
+	}
+	.news-pc .list-group-item a{
+		overflow: hidden;
+		display: block;
+	}
+	.news-pc .list-group-item .title{
+		width: 500px;
+		float: left;
+		overflow: hidden; /*自动隐藏文字*/
+		text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+		white-space: nowrap;/*强制不换行*/
+		font-weight: normal;
+		font-size: 16px;
+	}
+	.news-pc .list-group-item .time{
+		width: 100px;
+		float: right;
+	}
+	.tab-content .img01{
+		display: none;
+	}
+	.tab-content .img02{
+		display: block;
+	}
+	.pages{
+		text-align: left;
+	}
+	.pagination > li > a, .pagination-lg > li > span {
+	    padding: 10px 16px;
+	    font-size: 18px;
+	    line-height: 1.3333;
+	}
+	
+	.breadcrumb{
+		display: block;
+	}
+	.news-text{
+		padding: 0 50px;
+	}
+	.news-text .title{
+		text-align: center;
+		margin: 40px 0;
+	}
+	.news-text .time{
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+		color: #999;
+	}
+	.news-text .main{
+		font-size: 16px;
+		line-height: 36px;
+	}
+}
+
